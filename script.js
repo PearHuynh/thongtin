@@ -1,7 +1,9 @@
 function traCuu() {
     var age = parseInt(document.getElementById('age').value);
     var gender = document.getElementById('gender').value;
-    var resultDiv = document.getElementById('result');
+    var resultDiv1 = document.getElementById('result1');
+    var resultDiv2 = document.getElementById('result2');
+    var resultTextsex = '';
     var resultText1 = '';
     var resultText2 = '';
 
@@ -42,6 +44,9 @@ function traCuu() {
         resultText2 = 'Độ tuổi không hợp lệ';
     }
 
-    resultDiv.textContent = resultText1 + " - " + resultText2;
+    resultTextsex = (gender === 'male') ? 'NAM' : 'NỮ';
+
+    resultDiv1.textContent = resultTextsex + ' ' + age + ' tuổi ';
+    resultDiv2.textContent = 'Sao ' + resultText1 + " hạn " + resultText2;
 }
 
