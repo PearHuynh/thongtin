@@ -48,7 +48,6 @@ function traCuu() {
     resultTextsex = (gender === 'male') ? 'NAM' : 'NỮ';
 
     resultDiv1.textContent = resultTextsex + ' ' + age + ' tuổi ';
-    resultDiv2.textContent = 'Sao ' + resultText1;
-    resultDiv3.textContent = 'Hạn ' + resultText2;
+    resultDiv2.textContent = resultText1 + ' - ' + resultText2;
 }
 
