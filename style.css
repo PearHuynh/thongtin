@@ -11,12 +11,10 @@ body {
   margin: 20px;
   padding: 10px;
   border-radius: 8px;
-  background-color: #0056b3;
 }
 
 .container {
-  width: 80%;
-  height: 1080px;
+  height: 500px;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
