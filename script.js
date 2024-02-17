@@ -3,6 +3,7 @@ function traCuu() {
     var gender = document.getElementById('gender').value;
     var resultDiv1 = document.getElementById('result1');
     var resultDiv2 = document.getElementById('result2');
+    var resultDiv3 = document.getElementById('result3');
     var resultTextsex = '';
     var resultText1 = '';
     var resultText2 = '';
@@ -47,6 +48,7 @@ function traCuu() {
     resultTextsex = (gender === 'male') ? 'NAM' : 'NỮ';
 
     resultDiv1.textContent = resultTextsex + ' ' + age + ' tuổi ';
-    resultDiv2.textContent = 'Sao ' + resultText1 + " hạn " + resultText2;
+    resultDiv2.textContent = 'Sao ' + resultText1;
+    resultDiv3.textContent = 'Hạn ' + resultText2;
 }
 

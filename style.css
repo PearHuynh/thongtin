@@ -56,12 +56,17 @@ button:hover {
 }
 
 #result1 {
-  margin-top: 5%;
+  margin-top: 2%;
   font-size: 150%; /* Tăng kích thước lên 150% */
 }
 
 #result2 {
-  margin-top: 5%;
+  margin-top: 10px;
+  font-size: 150%; /* Tăng kích thước lên 150% */
+}
+
+#result3 {
+  margin-top: 10px;
   font-size: 150%; /* Tăng kích thước lên 150% */
   margin-bottom: 5%;
 }
